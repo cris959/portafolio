@@ -46,6 +46,7 @@ body {
 .presentacion_contenido_titulo {
     font-size: 36px;    
     font-family: "Krona One", sans-serif;
+     text-align: justify;
 }
 
 .titulo-destaque {
@@ -55,6 +56,7 @@ body {
 .presentacion_contenido_texto {
     font-size: 24px;
     font-family: "Montserrat", sans-serif;
+     text-align: justify;
 }
     
 
@@ -102,4 +104,55 @@ body {
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
     font-weight: 400;
+}
+
+
+/* Estilos específicos para el currículum */
+.curriculum_seccion {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.curriculum_seccion h2 {
+    color: #22D4FD; /* o el color que estés usando para tus títulos */
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.curriculum_seccion h3 {
+    color: #4CAF50; /* Un color secundario */
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+}
+
+.curriculum_seccion ul {
+    list-style-type: disc; /* Puntos de lista */
+    margin-left: 2rem;
+    padding-left: 0;
+}
+
+.curriculum_seccion li {
+    margin-bottom: 0.5rem;
+}
+
+/* Estilo para destacar en el footer */
+.destaque {
+    color: #22D4FD; /* Resalta el texto con el color principal */
+    font-weight: bold;
+}
+
+.presentacion_contenido_texto-2, li  {
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    text-align: justify;
+}
+
+h3 {
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;        
+}
+
+.cv-icon img {
+    width: 30px; /* Aumenta el tamaño, puedes ajustar el valor */
 }
