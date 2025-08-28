@@ -1,19 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root {
+    --color-primario: #000000;
+    --color-secundario: #F6F6F6;
+    --color-terciario: #22D4FD;
+    --color-acento: #272727;
+    --color-curriculum: #4CAF50;
+
+    --fuente-montserrat: 'Montserrat', sans-serif;
+    --fuente-krona: 'Krona One', sans-serif;
+}
+
 * {
     padding: 0;
     margin: 0;
 }
 
 body {
-    background-color: #000000;
-    color: #F6F6F6;
+    background-color: var(--color-primario);
+    color: var(--color-secundario);
    /* height: 100vh;*/
     box-sizing: border-box;
 }
 
 .header {
-    background-color: #000000;
+    background-color: var(--color-primario);
     padding: 2% 0% 0% 15%;
 }
 
@@ -23,10 +34,10 @@ body {
 }
 
 .header_menu_link {
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--fuente-montserrat);
     font-size: 24px;
     font-weight: 600;
-    color: #22D4FD;
+    color: var(--color-terciario);
     text-decoration: none;
 }
 
@@ -45,17 +56,17 @@ body {
 
 .presentacion_contenido_titulo {
     font-size: 36px;    
-    font-family: "Krona One", sans-serif;
+    font-family: var(--fuente-krona);
      text-align: justify;
 }
 
 .titulo-destaque {
-    color: #22D4FD;
+    color: var(--color-terciario);
 }
 
 .presentacion_contenido_texto {
     font-size: 24px;
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--fuente-montserrat);
      text-align: justify;
 }
     
@@ -69,7 +80,7 @@ body {
 }
 
 .presentacion_enlaces_subtitulo  {
-    font-family: "Krona One", sans-serif;
+    font-family: var(--fuente-krona);
     font-size: 24px;
     font-weight: 400;
 }
@@ -80,28 +91,33 @@ body {
     text-align: center;
     padding: 21.5px 0;
     border-radius: 8px;
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--fuente-montserrat);
     font-size: 24px;
     font-weight: 600;
     text-decoration: none;
-    color: #F6F6F6;
-    border: 2px solid #22D4FD;
+    color: var(--color-secundario);
+    border: 2px solid var(--color-terciario);
     display: flex;
     justify-content: center;
     gap: 10px;
 }
 
 .presentacion_enlaces_link:hover {
-    background-color: #272727;
-    color: #000000;
+    background-color: var(--color-acento);
+    color: var(--color-primario);
+}
+
+.foto {
+  width: 600px; /* o el tamaño que prefieras */
+  height: auto; /* para que mantenga la proporción */
 }
 
 .footer {
-    background-color: #22D4FD;
+    background-color: var(--color-terciario);
     padding: 24px;
-    color: #000;
+    color: var(--color-primario);
     text-align: center;
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--fuente-montserrat);
     font-size: 24px;
     font-weight: 400;
 }
@@ -111,17 +127,17 @@ body {
 .curriculum_seccion {
     margin-bottom: 2rem;
     padding-bottom: 1rem;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid var(--color-secundario);
 }
 
 .curriculum_seccion h2 {
-    color: #22D4FD; /* o el color que estés usando para tus títulos */
+    color: var(--color-terciario); /* o el color que estés usando para tus títulos */
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
 }
 
 .curriculum_seccion h3 {
-    color: #4CAF50; /* Un color secundario */
+    color: var(--color-curriculum); /* Un color secundario */
     font-size: 1.2rem;
     margin-top: 1.5rem;
 }
@@ -138,19 +154,19 @@ body {
 
 /* Estilo para destacar en el footer */
 .destaque {
-    color: #22D4FD; /* Resalta el texto con el color principal */
+    color: var(--color-terciario); /* Resalta el texto con el color principal */
     font-weight: bold;
 }
 
 .presentacion_contenido_texto-2, li  {
     font-size: 15px;
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--fuente-montserrat);
     text-align: justify;
 }
 
 h3 {
     font-size: 15px;
-    font-family: "Montserrat", sans-serif;        
+    font-family: var(--fuente-montserrat);        
 }
 
 .cv-icon img {
