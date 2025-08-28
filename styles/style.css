@@ -35,7 +35,7 @@ body {
 
 .header_menu_link {
     font-family: var(--fuente-montserrat);
-    font-size: 24px;
+    font-size: 1.5rem; /*24px;*/
     font-weight: 600;
     color: var(--color-terciario);
     text-decoration: none;
@@ -46,18 +46,19 @@ body {
     align-items: center;
     padding: 6% 15%;
     justify-content: space-between;    
+    gap: 82px;
 }
 .presentacion_contenido {
-    width: 615px;
+    width: 50%; /*615px;*/
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
 .presentacion_contenido_titulo {
-    font-size: 36px;    
+    font-size: 2.25rem;/*36px;*/    
     font-family: var(--fuente-krona);
-     text-align: justify;
+    text-align: justify;
 }
 
 .titulo-destaque {
@@ -65,9 +66,9 @@ body {
 }
 
 .presentacion_contenido_texto {
-    font-size: 24px;
+    font-size: 1.5rem; /*24px;*/
     font-family: var(--fuente-montserrat);
-     text-align: justify;
+    text-align: justify;
 }
     
 
@@ -81,18 +82,18 @@ body {
 
 .presentacion_enlaces_subtitulo  {
     font-family: var(--fuente-krona);
-    font-size: 24px;
+    font-size: 1.5rem; /*24px;*/
     font-weight: 400;
 }
 
 
 .presentacion_enlaces_link {
-    width: 378px;
+    width: 50%; /*378px;*/
     text-align: center;
     padding: 21.5px 0;
     border-radius: 8px;
     font-family: var(--fuente-montserrat);
-    font-size: 24px;
+    font-size: 1.5rem; /*24px;*/
     font-weight: 600;
     text-decoration: none;
     color: var(--color-secundario);
@@ -108,8 +109,12 @@ body {
 }
 
 .foto {
+ 
+  /*  
   width: 600px; /* o el tamaño que prefieras */
+  /*
   height: auto; /* para que mantenga la proporción */
+  width: 50%;
 }
 
 .footer {
@@ -118,7 +123,7 @@ body {
     color: var(--color-primario);
     text-align: center;
     font-family: var(--fuente-montserrat);
-    font-size: 24px;
+    font-size: 1.5rem;/*24px;*/
     font-weight: 400;
 }
 
@@ -159,13 +164,13 @@ body {
 }
 
 .presentacion_contenido_texto-2, li  {
-    font-size: 15px;
+    font-size: 0.90rem; /*15px;*/
     font-family: var(--fuente-montserrat);
     text-align: justify;
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 0.90rem;/*15px;*/
     font-family: var(--fuente-montserrat);        
 }
 
