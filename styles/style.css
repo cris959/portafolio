@@ -177,3 +177,37 @@ h3 {
 .cv-icon img {
     width: 30px; /* Aumenta el tamaño, puedes ajustar el valor */
 }
+
+/* Media Queries para responsividad */
+
+@media (max-width: 1200px) {
+    
+    .header {
+        padding: 10%;        
+    }
+
+    .header_menu {
+        justify-content: center;
+    }
+
+    .presentacion {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 5%;
+    }
+
+    .presentacion_contenido {
+        width: auto;
+    }
+    
+}
+
+@media(max-width: 768px) {
+    .presentacion {
+        padding: 2% 5%;
+    }
+    .presentacion_contenido {
+        width: auto;
+        max-width: 100%;
+    }
+}
